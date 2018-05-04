@@ -1,0 +1,53 @@
+#login-form {
+    /* padding-top: 3em;
+        padding-bottom: 2em; */
+    padding: 0;
+    margin-top: 2em;
+     background-image: url(" blue"); 
+    /* margin-bottom: 2em; */
+    border-radius: 5px;
+    /* background: #d53369; */
+    /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to bottom, #cbad6d, #d53369); */
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to bottom, #cbad6d, #d53369); */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   }
+   /* .btn-group.special {
+    display: flex;
+    margin-top: 2em;
+   } */
+  
+   /* .text-white {
+    color: black;
+   } */
+  
+   .group {
+    position: relative;
+    margin-bottom: 20px; 
+   }
+   input {
+    color: black;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+   
+   }
+   /* input:focus {
+    outline: none;
+   } */
+ 
+   label {
+    color: black;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+   }
+  
+  

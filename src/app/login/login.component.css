@@ -1,0 +1,58 @@
+h2{
+    color: green;
+    text-align: center;
+}
+h3{
+    color: orange;
+    text-align: center;
+    /* margin-top: 20px; */
+    /* margin-left: 40px; */
+}
+
+div.group label
+{
+    margin-left: 230px;
+    position: absolute;
+    transform: translateY(-20%);
+    color: orange;
+    padding: 15px 15px;
+}
+div.group 
+{
+    padding: 15px ;
+    outline: brown;
+    /* margin: 5px; */
+    /* margin-left: 400px; */
+    /* margin-right: 80px; */
+font-size: 10px;
+}
+container
+{
+    /* margin-right:  */
+    /* padding: 100px; */
+    /* margin-right: 150px; */
+    text-align: center;
+}
+ button
+{
+    color: orange;
+/* text-align: center; */
+    /* margin-left: 450px; */
+    padding: 10px;
+    margin-left: 350px;
+}
+div.group input{
+    margin-left: 300px;
+    margin-bottom: 0px;
+    padding: 5px;
+}
+.container{
+    background-image:url("https://cdn.pixabay.com/photo/2018/04/10/08/14/nature-3306655__340.jpg");
+    /* size: 100%; */
+    padding: 100px;
+    /* width: 100%;
+    height:100%; */
+    margin-top: 10px;
+
+    /* opacity: 50px; */
+}

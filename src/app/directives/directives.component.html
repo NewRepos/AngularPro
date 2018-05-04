@@ -1,0 +1,53 @@
+<div *ngFor = 'let lst of abc'> 
+    <ul> 
+       <li>{{lst.ID}}</li> 
+       <li>{{lst.Name}}</li> 
+    </ul> 
+    <div *ngIf = 'appStatus'>{{appTitle}}  </div> 
+   
+ </div> 
+
+ <div id="login-form" class="container col-md-offset-4 col-sm-4">
+    <form style="padding: 2em;">
+        
+        <br>
+        <div class="group" [class.has-error]="FirstnameControl.invalid ">
+            <input type="text" (keypress)="keyPress($event)" minlength=10 maxlength=10 required id="Firstname" name="Firstname" [(ngModel)]="Firstname"
+                #FirstnameControl="ngModel">
+            <label for="Firstname" class="control-label">Firstname</label>
+           
+        </div>
+       
+      
+        <div class="group">
+            <input type="text" (keypress)="keyPress($event)" minlength=10 maxlength=10 required>
+            <label>Last Name</label>
+        </div>
+        <div class="group" [class.has-error]="AgeControl.invalid ">
+            <input type="text" (keypress)="keyPressMob($event)" minlength=1 maxlength=3 required id="Age" name="Age" [(ngModel)]="Age"
+                #AgeControl="ngModel">
+            <label for="Age" class="control-label">Age</label>
+            <span class="help-block" *ngIf="AgeControl.invalid ">Age required</span>
+        </div>
+        <!-- <div class="group">
+            <input type="tel" (keypress)="keyPressMob($event)" minlength=2 maxlength=2 required>
+            <label>Age</label>
+        </div> -->
+        <div class="group" [class.has-error]="mobilenumberControl.invalid ">
+            <input type="text" (keypress)="keyPressMob($event)" minlength=10 maxlength=10 required id="mobilenumber" name="mobilenumber"
+                [(ngModel)]="mobilenumber" #mobilenumberControl="ngModel">
+            <label for="mobilenumber" class="control-label">Mobilenumber</label>
+            <span class="help-block" *ngIf="mobilenumberControl.invalid ">Mobilenumber required</span>
+        </div>
+        <!-- <div class="group">
+            <input type="tel" (keypress)="keyPressMob($event)" minlength=10 maxlength=10 required>
+            <label> Mobile Number</label>
+        </div> -->
+        <div class="group">
+            <input type="text" (keypress)="keyPress($event)" minlength=10 maxlength=10 required>
+            <label>Country</label>
+        </div>
+    </form>
+    
+   
+</div>
